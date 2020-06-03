@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #0a0a0c, #0a0a0c);
+}
+
+.navbar-brand {
+    color: #fff !important; 
+    font-weight: 700;
+}
+
+.navbar-nav a {
+    color: #fff;
+    font-weight: 600;
+}
+
+.navbar-nav li {
+    padding: 0 25px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.banner {
+    background-image: url(img/mjnew.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding: 10%;
+}
+
+.banner .block {
+    padding-left: 10px;
+    border-left: 5px solid white;
+}
+
+.premios {
+    padding: 45px 0;
+}
+
+.premios-img {
+    width: 240px;
+    height: 180px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10%;
+}
+
+.awards {
+    padding: 40px;
+}
+
+.bio {
+    padding: 40px;
+    background: #ff2f2f;
+}
+
+.awards h4 {
+    padding: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.titulo::before {
+    content: '';
+    background: #0a0a0c;
+    height: 5px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(50px);
+}
+
+.titulo::after {
+    content: '';
+    background: #0a0a0c;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(4px);
+}
+
+.footer {
+    background: #0a0a0c;
+    padding: 50px 0;
+}
+
+.footer p {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer .midias-sociais-icons img{
+    width: 50px;
+    margin: 0 20px;
+    transition: 0.5s;
+}
+
+.midias-sociais-icons a:hover img {
+    transform: translateY(-10px);
+}
